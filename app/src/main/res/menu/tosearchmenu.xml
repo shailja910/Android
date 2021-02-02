@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Settings" android:id="@+id/setting"/>
+
+    <item android:title="Users" android:id="@+id/users"/>
+
+    <item android:title="AboutUs" android:id="@+id/aboutus"/>
+
+     <item android:title="" android:id="@+id/cart"></item>
+
+    <item android:title="Search" android:id="@+id/search_id" android:icon="@drawable/search" app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+    <!-- image from drawable -->
+
+    <!--app:showAsAction="always" :to show item always on toolbar-->
+
+    <!--app:showAsAction="never" :to show it only when clocked on menu icon-->
+
+    <!--app:showAsAction="ifRoom" :to show, if space is available on the toolbar-->
+
+</menu>

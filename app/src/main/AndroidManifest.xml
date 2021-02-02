@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cse2252021kmo54">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSE2252021KMO54">
+        <activity android:name=".CustomToastLayout"></activity>
+        <activity android:name=".DemoCustomToast" />
+        <activity android:name=".P10DateTimePickerAlarm" />
+        <activity android:name=".P9AlarmUsingPendingIntent" />
+
+        <receiver android:name=".P9MyBroadcastReceiver" />
+
+        <activity android:name=".P8PendingIntent" />
+        <activity android:name=".P7_2CustomToastLayout" />
+        <activity android:name=".P7_1CustomToastMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P6ProgressbarWithProgressDialog" />
+        <activity android:name=".P5_2SplashScreenMain" />
+        <activity android:name=".P4Progressbar" />
+        <activity android:name=".P3RatingBar" />
+        <activity android:name=".P2Toolbar" />
+        <activity android:name=".P1Scrollview" />
+    </application>
+
+</manifest>

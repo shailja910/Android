@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P4Progressbar"
+    android:orientation="vertical">
+    <!-- horizontal progress bar whose indeterminate is set to false means it
+    is determinate now ,so show value of progress through thread ,to
+     makeprogressbar horizontal,add "progressBarStyleHorizontal" style-->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+         android:text="determinate horizontal PB"
+        />
+    <ProgressBar android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:progress="1"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:max="100"
+        android:visibility="invisible"
+        android:indeterminate="false"
+        android:progressTint="@color/black"
+        android:progressBackgroundTint="#FF5722"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/pbstraight"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv"
+        />
+
+
+    <!-- cyclic progress bar which is indeterminate by default ,so no java code needed-->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="indeterminate spinning wheel PB"
+        />
+    <ProgressBar android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:id="@+id/pbcyclic"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:id="@+id/start">
+    </Button>
+
+
+
+</LinearLayout>

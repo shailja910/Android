@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P2Toolbar"
+    android:orientation="vertical">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tb1"
+    android:background="#345678"
+    app:logo="@drawable/ic_launcher_foreground"
+    app:title="first toolbar"
+    app:titleTextColor="#999965"
+    app:subtitle="i am updated actionbar"
+    app:subtitleTextColor="#FFC107">
+    <!--we can also add any other view over toolbar -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground">
+    </ImageView>
+</androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
