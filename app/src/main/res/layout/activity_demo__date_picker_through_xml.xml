@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Demo_DatePicker_through_xml"
+    android:orientation="vertical">
+<DatePicker
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dp"
+    android:datePickerMode="spinner"
+    android:background="#03A9F4"></DatePicker>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:onClick="submit"></Button>
+</LinearLayout>

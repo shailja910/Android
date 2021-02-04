@@ -62,7 +62,7 @@ public class P8PendingIntent extends AppCompatActivity {
         //getActivity(Context context, int requestCode, Intent intent, int flags)
         // Retrieve a PendingIntent that will start a new activity
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
-        Notification.Builder mBuilder = new Notification.Builder(this);   //workes after oreo version
+        Notification.Builder mBuilder = new Notification.Builder(this,"CHANNEL_ID");   //workes after oreo version
                 mBuilder.setSmallIcon(R.mipmap.ic_launcher);
                mBuilder .setContentTitle("My notification");
                 mBuilder.setContentText("Hello World!");

@@ -9,22 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE2252021KMO54">
-        <activity android:name=".CustomToastLayout"></activity>
-        <activity android:name=".DemoCustomToast" />
-        <activity android:name=".P10DateTimePickerAlarm" />
+        <activity android:name=".P13TimePickerDialog" />
+        <activity android:name=".P12TimePickerThroughXml">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />q
+            </intent-filter>
+        </activity>
+        <activity android:name=".P11DatePickerDialog">
+
+        </activity>
+        <activity android:name=".P10DatePickerThrough_xml" />
+        <activity android:name=".P13DateTimePickerAlarm" />
         <activity android:name=".P9AlarmUsingPendingIntent" />
 
         <receiver android:name=".P9MyBroadcastReceiver" />
 
         <activity android:name=".P8PendingIntent" />
         <activity android:name=".P7_2CustomToastLayout" />
-        <activity android:name=".P7_1CustomToastMain">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".P7_1CustomToastMain" />
         <activity android:name=".P6ProgressbarWithProgressDialog" />
         <activity android:name=".P5_2SplashScreenMain" />
         <activity android:name=".P4Progressbar" />
